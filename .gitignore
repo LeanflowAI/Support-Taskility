@@ -1,0 +1,12 @@
+.DS_Store
+.next
+node_modules
+public/static/*
+!public/static/manifest.json
+!public/static/icons
+cypress/screenshots
+cypress/videos
+.vercel
+coverage
+.env
+.idea/workspace.xml
