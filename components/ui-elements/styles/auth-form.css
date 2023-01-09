@@ -1,0 +1,59 @@
+div.auth-page-container {
+  background: url(https://storage.googleapis.com/taskility-bucket-gcp/b2d742f75b2b41e48be1b8ca110231faAdobeStock_271261005.jpeg) no-repeat;
+  background-size: cover;
+  background-position: 35vw 50%;
+}
+
+form.auth-form {
+  /* TODO: Use colors from tailwind.config.js  */
+  background: radial-gradient(100vh at 100% 55%, #0085ff 0%, #003eb6 70%);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 480px) {
+  form.auth-form {
+    min-width: 100vw;
+  }
+}
+
+@media (min-width: 720px) {
+  form.auth-form {
+    min-width: 260px;
+    width: 35vw;
+  }
+}
+
+form.auth-form div.button-space {
+  height: 8vh;
+}
+
+form.auth-form div.auth-form-text {
+  position: absolute;
+  color: white; /* TODO: Use colors from tailwind.config.js  */
+  margin-right: 16.25vw;
+  font-stretch: condensed;
+  /* font-family: 'Open Sans Condensed'; */
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 144.4%;
+  display: none;
+}
+
+@media (min-width: 720px) {
+  form.auth-form div.auth-form-text {
+    display: block;
+    left: 51.25vw;
+  }
+}
+
+div.app-logo.auth-page {
+  background-image: url('/taskility-logo.svg');
+  margin-bottom: 10vh;
+  background-size: contain !important;
+  width: 200px !important;
+  height: 54px !important;
+}

@@ -1,0 +1,229 @@
+/* TODO: Apply this styles to antd button */
+/* 
+import PropTypes from 'prop-types'
+import { Button as Base } from 'antd'
+// import styled from 'styled-components'
+// import { Icon } from '../icon'
+
+// const borderColor = ({ theme, color = 'default' }) => {
+//   const colors = {
+//     default: theme.colors.primary,
+//     primary: theme.colors.primary,
+//     subtle: 'transparent',
+//   }
+//   return colors[color]
+// }
+
+// const backgroundColor = ({ theme, color = 'default' }) => {
+//   const colors = {
+//     default: theme.colors.empty,
+//     primary: theme.colors.primary,
+//     subtle: 'transparent',
+//   }
+//   return colors[color]
+// }
+
+// const textColor = ({ theme, color = 'default' }) => {
+//   const colors = {
+//     default: theme.colors.primary,
+//     primary: theme.colors.empty,
+//     subtle: theme.colors.primary,
+//   }
+//   return colors[color]
+// }
+
+// const hoverColor = ({ theme, color = 'default' }) => {
+//   const colors = {
+//     default: theme.colors.empty,
+//     primary: theme.colors.empty,
+//     subtle: theme.colors.primary,
+//   }
+//   return colors[color]
+// }
+
+// const hoverBackgroundColor = ({ theme, color = 'default' }) => {
+//   const colors = {
+//     default: theme.colors.shade,
+//     primary: theme.colors.shade,
+//     subtle: theme.colors.empty,
+//   }
+//   return colors[color]
+// }
+
+// const hoverBorderColor = ({ theme, color = 'default' }) => {
+//   const colors = {
+//     default: theme.colors.empty,
+//     primary: theme.colors.empty,
+//     subtle: theme.colors.primary,
+//   }
+//   return colors[color]
+// }
+
+// const height = ({ size = 'default' }) => {
+//   const heights = {
+//     default: '40px',
+//     big: '56px',
+//   }
+//   return heights[size]
+// }
+
+// const padding = ({ size = 'default', children }) => {
+//   const paddings = {
+//     default: '0 10px',
+//     big: '0 20px',
+//   }
+//   return children.type === Icon ? '0' : paddings[size]
+// }
+
+// const fontSize = ({ size = 'default' }) => {
+//   const paddings = {
+//     default: '14px',
+//     big: '18px',
+//   }
+//   return paddings[size]
+// }
+
+// export const Button = styled(Base)`
+//   background-color: ${backgroundColor};
+//   color: ${textColor};
+//   border: solid 1px ${borderColor};
+//   border-radius: 4px;
+//   font: normal normal ${fontSize} / 24px 'Open Sans';
+//   white-space: nowrap;
+//   transition: all 300ms;
+//   margin: 0 4px;
+//   height: ${height};
+//   padding: ${padding};
+//   &:hover {
+//     color: ${hoverColor};
+//     background-color: ${hoverBackgroundColor};
+//     border-color: ${hoverBorderColor};
+//     transition: all 300ms;
+//   }
+//   &:focus {
+//     box-shadow: 0 0 0 2px ${({ theme }) => theme.colors.empty}, 0 0 0 3px ${({ theme }) => theme.colors.primary};
+//     outline: none;
+//     transition: all 300ms;
+//   }
+// `
+
+// Button.propTypes = {
+//   size: PropTypes.oneOf(['default', 'big']).isRequired,
+//   color: PropTypes.oneOf(['default', 'primary', 'subtle']).isRequired,
+// }
+
+// Button.defaultProps = {
+//   size: 'default',
+//   color: 'default',
+// }
+
+// const invBorderColor = ({ theme, color = 'default' }) => {
+//   const colors = {
+//     primary: theme.colors.empty,
+//     default: theme.colors.empty,
+//     subtle: 'transparent',
+//   }
+//   return colors[color]
+// }
+
+// const invBackgroundColor = ({ theme, color = 'default', pushed = false }) => {
+//   const colors = {
+//     primary: theme.colors.empty,
+//     default: 'transparent',
+//     subtle: pushed ? theme.colors.shadow2 : 'transparent',
+//   }
+//   return colors[color]
+// }
+
+// const invTextColor = ({ theme, color = 'default' }) => {
+//   const colors = {
+//     primary: theme.colors.primary,
+//     default: theme.colors.empty,
+//     subtle: theme.colors.empty,
+//   }
+//   return colors[color]
+// }
+
+// const invHoverTextColor = ({ theme, color = 'default' }) => {
+//   const colors = {
+//     primary: theme.colors.empty,
+//     default: theme.colors.primary,
+//     subtle: theme.colors.empty,
+//   }
+//   return colors[color]
+// }
+
+// const invHoverBackgroundColor = ({ theme, color = 'default', pushed = false }) => {
+//   const colors = {
+//     primary: 'transparent',
+//     default: theme.colors.empty,
+//     subtle: pushed ? theme.colors.shadow2 : 'transparent',
+//   }
+//   return colors[color]
+// }
+
+// const invHoverBorderColor = ({ theme, color = 'default' }) => {
+//   const colors = {
+//     default: theme.colors.empty,
+//     primary: theme.colors.empty,
+//     subtle: 'transparent',
+//   }
+//   return colors[color]
+// }
+
+// export const ButtonInv = styled(Button)`
+//   border-color: ${invBorderColor};
+//   background-color: ${invBackgroundColor};
+//   color: ${invTextColor};
+//   &:hover {
+//     color: ${invHoverTextColor};
+//     background-color: ${invHoverBackgroundColor};
+//     border-color: ${invHoverBorderColor};
+//     border-bottom: 1px solid ${({ theme }) => theme.colors.empty};
+//   }
+//   &:focus {
+//     box-shadow: none;
+//     outline: none;
+//     transition: all 300ms;
+//   }
+// `
+
+ */
+
+/* TODO: Apply this styles to antd button (when type="link") */
+
+/* const StyledLink = styled(Base)`
+  text-decoration: none;
+  font-family: 'Open Sans';
+  font-size: 12px;
+  color: ${({ color, theme }) => (color === 'inverse' ? theme.colors.empty : theme.colors.primary)};
+  &:hover {
+    text-decoration: underline;
+  }
+` */
+
+/* MERGE THIS STYLES */
+/* .btn {
+  @apply border border-transparent bg-transparent text-primary font-bold py-2 px-4 mx-2 rounded whitespace-no-wrap;
+}
+.btn:hover {
+  @apply transition duration-300;
+}
+.btn:focus {
+  @apply outline-none shadow-outline;
+}
+.btn:active {
+  @apply bg-shade;
+}
+.btn-primary {
+  @apply bg-primary text-white border-primary;
+}
+.btn-primary:hover {
+  @apply bg-shade border-white;
+}
+.btn-secondary {
+  @apply bg-white text-primary border-primary;
+}
+.btn-secondary:hover {
+  @apply bg-shade text-white border-white;
+} */

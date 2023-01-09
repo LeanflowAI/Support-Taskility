@@ -1,0 +1,5 @@
+div.app-logo {
+  @apply h-16 float-left bg-center bg-no-repeat;
+  background-image: url('/taskility-logo-no-text.svg');
+  width: 42px;
+}

@@ -1,0 +1,71 @@
+/* @tailwind base; */
+@tailwind components;
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+@import './app-logo.css';
+@import './auth-form.css';
+@import './button.css';
+
+.ant-layout-header {
+  /* @apply bg-primary; */
+
+  /* background-image: radial-gradient(954.17px at 57.25% 271.25%, rgb(0, 133, 255) 0%, rgb(0, 62, 182) 100%);
+  background: rgb(0, 133, 255);
+  background: linear-gradient(90deg, rgba(0, 133, 255, 1) 0%, rgba(0, 212, 255, 1) 100%);
+  padding: 0px 16px 0px 16px; */
+
+}
+
+
+
+.global-search-input {
+  width: 256px;
+}
+
+/* START ### INVOICE CARD BUSINESS PILLS CAROUSEL */
+.ant-carousel {
+  @apply h-32 w-full;
+}
+.ant-carousel .slick-slide {
+  @apply h-32 text-center overflow-hidden;
+}
+.ant-carousel .slick-dots.slick-dots-bottom {
+  @apply mb-0;
+}
+.ant-carousel .slick-slider ul.slick-dots li button {
+  @apply bg-shadow;
+}
+.ant-carousel .slick-slider ul.slick-dots li.slick-active button {
+  @apply bg-primary;
+}
+/* END ### INVOICE CARD BUSINESS PILLS CAROUSEL */
+
+.invoice-card .ant-card-body {
+  @apply p-0;
+}
+.invoice-card-details .ant-statistic {
+  @apply m-2;
+}
+.invoice-card-details .ant-statistic-content {
+  @apply text-base;
+}
+
+.ant-menu-dark.ant-menu-dark:not(.ant-menu-horizontal) .ant-menu-item-selected {
+  background-color: #0085ff;
+  background: linear-gradient(90deg, rgba(0, 133, 255, 1) 0%,  rgba(0, 133, 255, 1) 100%);
+}
+
+.ant-menu-dark.ant-menu-dark:not(.ant-menu-horizontal) .ant-menu-item-selected {
+  background-color: #0085ff;
+  background: linear-gradient(90deg,  rgba(0, 133, 255, 1) 0%,  rgba(0, 133, 255, 1) 100%);
+}
+
+@import '~antd/dist/antd.css';
+
+@tailwind utilities;
